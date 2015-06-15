@@ -1,0 +1,43 @@
+--- Info.plist.orig	2012-02-24 17:39:37.000000000 +0100
++++ Info.plist	2012-06-12 18:53:29.000000000 +0200
+@@ -72,6 +72,40 @@
+ 			<key>idVendor</key>
+ 			<integer>1027</integer>
+ 		</dict>
++       <key>SheevaPlug JTAGKey FT2232D A</key>
++       <dict>
++           <key>CFBundleIdentifier</key>
++           <string>com.FTDI.driver.FTDIUSBSerialDriver</string>
++           <key>IOClass</key>
++           <string>FTDIUSBSerialDriver</string>
++           <key>IOProviderClass</key>
++           <string>IOUSBInterface</string>
++           <key>bConfigurationValue</key>
++           <integer>1</integer>
++           <key>bInterfaceNumber</key>
++           <integer>0</integer>
++           <key>idProduct</key>
++           <integer>40591</integer>
++           <key>idVendor</key>
++           <integer>40584</integer>
++         </dict>
++       <key>SheevaPlug JTAGKey FT2232D B</key>
++       <dict>
++           <key>CFBundleIdentifier</key>
++           <string>com.FTDI.driver.FTDIUSBSerialDriver</string>
++           <key>IOClass</key>
++           <string>FTDIUSBSerialDriver</string>
++           <key>IOProviderClass</key>
++           <string>IOUSBInterface</string>
++           <key>bConfigurationValue</key>
++           <integer>1</integer>
++           <key>bInterfaceNumber</key>
++           <integer>1</integer>
++           <key>idProduct</key>
++           <integer>40591</integer>
++           <key>idVendor</key>
++           <integer>40584</integer>
++         </dict>
+ 		<key>AMC232USBDH</key>
+ 		<dict>
+ 			<key>CFBundleIdentifier</key>
